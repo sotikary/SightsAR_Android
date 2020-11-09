@@ -1,0 +1,38 @@
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/transparent_white_10"
+    android:paddingRight="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/menu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="1dp"
+            android:background="@drawable/toolbar_ic_bg"
+            android:contentDescription="@null"
+            android:onClick="onMenuItemClick"
+            android:src="@android:drawable/ic_menu_revert"/>
+
+
+        <ImageView
+            android:id="@+id/menu_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/toolbar_ic_bg"
+            android:contentDescription="@null"
+            android:onClick="onMenuItemClick"
+            android:src="@drawable/ic_home_36dp"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

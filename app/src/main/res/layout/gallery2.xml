@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black">
+    <LinearLayout
+        android:id="@+id/include_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/toolbar2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/galleryView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_year"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"
+        android:gravity="top|center_vertical"
+        android:orientation="vertical"
+        android:visibility="visible">
+    <GridView
+        android:id="@+id/lst"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:columnWidth="180dp"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="none"
+        android:verticalSpacing="0dp"
+        android:focusable="true"
+        android:clickable="true"/>
+    </LinearLayout>
+</RelativeLayout>

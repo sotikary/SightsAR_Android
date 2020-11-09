@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:alpha="0.9"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/identify_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            style="@style/IdentifyInfoBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/identify_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="3.5"
+                android:shadowDy="5.3"
+                android:shadowRadius="5.6"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/identify_menu_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/gallery"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="3.5"
+                android:shadowDy="5.3"
+                android:shadowRadius="5.6"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <RelativeLayout
+                android:id="@+id/identify_menu2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/gallery"
+                    style="@style/identify1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@android:drawable/ic_menu_gallery"
+                    android:drawableRight="@android:drawable/ic_media_play"
+                    android:gravity="center|center_vertical"
+                    android:onClick="onMenuItemClick"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:text="Image gallery"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/about"
+                    style="@style/identify2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/gallery"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@android:drawable/ic_menu_info_details"
+                    android:drawableRight="@android:drawable/ic_media_play"
+                    android:gravity="center|center_vertical"
+                    android:onClick="onMenuItemClick"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:text="More about target"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/history_information"
+                    style="@style/identify3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/about"
+                    android:layout_marginBottom="12dp"
+                    android:drawableLeft="@android:drawable/ic_menu_info_details"
+                    android:drawableRight="@android:drawable/ic_media_play"
+                    android:gravity="center|center_vertical"
+                    android:onClick="onMenuItemClick"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:text="History information"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

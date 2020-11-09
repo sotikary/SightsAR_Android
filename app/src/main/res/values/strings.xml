@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SightsAR</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera">Camera permission is needed to show the camera preview.</string>
+    <string name="enable">ENABLE </string>
+    <string name="identify_permissions_camera">Please enable CAMERA permission from app settings.</string>
+    <string name="button_OK">OK</string>
+
+    <string name="INIT_ERROR">Error</string>
+    <string name="INIT_ERROR_DEVICE_NOT_SUPPORTED">Failed to initialize Vuforia. This device is not supported.</string>
+    <string name="INIT_ERROR_NO_CAMERA_ACCESS">Failed to initialize Vuforia. Camera not accessible</string>
+    <string name="INIT_LICENSE_ERROR_MISMATCH_KEY">Vuforia App key is not valid for this product. Please get a valid key, by logging into your account at developer.vuforia.com and choosing the right product type during project creation.</string>
+    <string name="INIT_LICENSE_ERROR_MISSING_KEY">Vuforia App key is missing. Please get a valid key, by logging into your account at developer.vuforia.com and creating a new project.</string>
+    <string name="INIT_LICENSE_ERROR_INVALID_KEY">Invalid Key used. Please make sure you are using a valid Vuforia App Key.</string>
+    <string name="INIT_LICENSE_ERROR_NO_NETWORK_TRANSIENT">Unable to contact server. Please try again later.</string>
+    <string name="INIT_LICENSE_ERROR_NO_NETWORK_PERMANENT">No network available. Please make sure you are connected to the Internet.</string>
+    <string name="INIT_LICENSE_ERROR_CANCELED_KEY">This app license key has been canceled and may no longer be used. Please get a new license key.</string>
+    <string name="INIT_LICENSE_ERROR_PRODUCT_TYPE_MISMATCH">Vuforia App key is not valid for this product. Please get a valid key, by logging into your account at developer.vuforia.com and choosing the right product type during project creation.</string>
+    <string name="INIT_LICENSE_ERROR_UNKNOWN_ERROR">Failed to initialize Vuforia.</string>
+    <string name="INIT_OBJECT_DATASET_NOT_FOUND_TITLE">Database not found</string>
+    <string name="INIT_OBJECT_DATASET_NOT_FOUND">Please scan an object and load a database</string>
+    <string name="menu_back">Vuforia Samples</string>
+
+
+    <!-- Mock values -->
+    <string name="mock_title">About SightsAR</string>
+    <string name="mock_design_is">SightsAR app was developed under the thesis of postgraduate programme Master of Science (MSc) in Web Intelligence” (http://msc.it.teithe.gr). AR app implements Augmented Reality so as to identify historical monuments in the city of Thessaloniki.
+    </string>
+
+    <string name="mock_design_is2">More specifically, the application will recognize real-time historical monuments and provide the user with information about the monument he is currently viewing with the camera of the mobile phone. The information includes a collection of images and historical information about the current monument.
+    </string>
+    <string name="mock_just">How to Use the App</string>
+    <string name="mock_listing_item1">SightsAR uses Vuforia SDK to augment the real world</string>
+    <string name="mock_listing_item2">It is based on image targets module</string>
+    <string name="mock_listing_item3">In order to use the app you can donwnload the targets or scan the current monument:\n
+        Dropbox: \n https://www.dropbox.com/sh/8j4b2hiive2gk0a/AAD9cVYkOCdv6kZ3O-zSENbIa?dl=0</string>
+    <string name="mock_listing_item4">In order to access to the saved files, go to the device Inside storage (SDCard) and find Targetsinformations folder.</string>
+    <string name="todo">TODO</string>
+    <!-- End Mock items -->
+</resources>

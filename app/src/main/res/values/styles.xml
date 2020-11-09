@@ -1,0 +1,61 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/black</item>
+
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.Dialog">
+    </style>
+    <style name="MenuItem">
+        <item name="android:background">@drawable/menu_bg</item>
+    </style>
+    <style name="identify1">
+        <item name="android:background">@drawable/identify_bg1</item>
+    </style>
+    <style name="identify2">
+        <item name="android:background">@drawable/identify_bg2</item>
+    </style>
+    <style name="identify3">
+        <item name="android:background">@drawable/identify_bg3</item>
+    </style>
+    <style name="MenuItem1">
+        <item name="android:background">@drawable/menu_bg1</item>
+    </style>
+    <style name="MenuItem2">
+        <item name="android:background">@drawable/menu_bg2</item>
+    </style>
+    <style name="MenuItem3">
+        <item name="android:background">@drawable/menu_bg3</item>
+    </style>
+    <style name="targetScroll">
+        <item name="android:background">@drawable/circle</item>
+    </style>
+    <style name="IdentifyInfoBox">
+        <item name="android:background">@drawable/rectangle_shape</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="Dialog" parent="@android:style/ThemeOverlay.Material.Dark">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+
+    </style>
+    <style name="Dialog2" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/downtoup</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <style name="PauseDialogAnimation2">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>

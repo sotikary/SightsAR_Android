@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_about"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.78"
+        android:layout_marginBottom="1dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/headermenu"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/dark_header"
+            android:layout_marginBottom="1dp"
+            android:gravity="right"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/subhead"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:drawablePadding="8dp"
+                android:paddingBottom="1dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="1dp"
+                android:gravity="left"
+                android:shadowColor="@color/transparent_black_30"
+                android:shadowDx="4.5"
+                android:shadowDy="5.8"
+                android:shadowRadius="6.8"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:typeface="serif" />
+            <ImageView
+                android:id="@+id/save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:src="@android:drawable/ic_menu_save" />
+            <ImageView
+                android:id="@+id/close_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:src="@android:drawable/btn_dialog" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageAbout"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:layout_below="@+id/headermenu"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop" />
+
+
+    </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/header"
+            android:background="@drawable/diagonal_line"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/aboutMenu"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.87"
+                android:background="@drawable/circle3"
+                android:fillViewport="true">
+
+                <TextView
+                    android:id="@+id/description"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageAbout"
+                    android:background="@drawable/border_bottom"
+                    android:lineSpacingExtra="1sp"
+                    android:linksClickable="true"
+                    android:paddingBottom="1dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="5dp"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/description2"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/description"
+                    android:layout_marginBottom="3dp"
+                    android:lineSpacingExtra="2sp"
+                    android:autoLink="web"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    android:typeface="sans" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

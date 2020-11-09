@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/back">
+
+        <ImageView
+            android:id="@+id/formBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/history" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient2"/>
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        style="@style/targetScroll"
+        android:layout_weight="0.5"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/formLogo"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:elevation="19dp"
+            android:rotation="1"
+            android:scaleType="fitEnd"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="Get Started"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="3.5"
+            android:shadowDy="5.3"
+            android:shadowRadius="5.6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="34dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="2.5"
+            android:shadowDy="4.3"
+            android:shadowRadius="5.6"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:text="Just a few details to get you started"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/button"
+            style="@style/MenuItem1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_photo_36dp"
+            android:drawablePadding="@android:dimen/app_icon_size"
+            android:drawableRight="@android:drawable/ic_media_play"
+            android:gravity="left|center_vertical"
+            android:alpha="0.9"
+            android:onClick="onMenuItemClick"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="0dp"
+            android:layout_marginBottom="5dp"
+            android:text="Identify"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/about"
+            style="@style/MenuItem2"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:alpha="0.9"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@android:drawable/ic_menu_info_details"
+            android:drawablePadding="@android:dimen/app_icon_size"
+            android:drawableRight="@android:drawable/ic_media_play"
+            android:gravity="left|center_vertical"
+            android:onClick="onMenuItemClick"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="0dp"
+            android:text="About Us"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/information"
+            style="@style/MenuItem3"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginBottom="5dp"
+            android:alpha="0.9"
+            android:drawableLeft="@drawable/ic_file_download"
+            android:drawablePadding="@android:dimen/app_icon_size"
+            android:drawableRight="@android:drawable/ic_media_play"
+            android:gravity="left|center_vertical"
+            android:onClick="onMenuItemClick"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="0dp"
+            android:text="Download Targets"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:fontFamily="serif-monospace"
+        android:lineSpacingExtra="10sp"
+        android:text=""
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        android:typeface="serif" />
+</RelativeLayout>

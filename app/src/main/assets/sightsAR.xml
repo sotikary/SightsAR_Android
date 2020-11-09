@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="kamara" size="600.000000 600.000000" />
+    <ImageTarget name="agdimitrios" size="600.000000 685.714294" />
+    <ImageTarget name="rotonta" size="600.000000 621.157898" />
+    <ImageTarget name="alexander" size="900.000000 1000.000000" />
+    <ImageTarget name="ompreles" size="700.000000 840.000000" />
+    <ImageTarget name="whitetower" size="1000.000000 1636.363647" />
+  </Tracking>
+</QCARConfig>
+
+

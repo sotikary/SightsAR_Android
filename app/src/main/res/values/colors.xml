@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#d7d7d7</color>
+    <color name="colorPrimaryDark">#898a96</color>
+    <color name="colorAccent">#b7b7b7</color>
+    <color name="colorBlack">#000000</color>
+    <color name="color_menu"> #e0b385</color>
+    <color name="transparent_white_10">#1aFFFFFF</color>
+    <color name="transparent_white_20">#33FFFFFF</color>
+
+    <color name="transparent_black_20">#33000000</color>
+    <color name="transparent_black_30">#4d000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#9e0056</color>
+    <color name="red">#d96468</color>
+
+
+
+    <color name="black">#000000</color>
+    <color name="gray">#575757</color>values/colors.xml:10
+    <color name="light_gray">#D3D3D3</color>
+    <color name="semi_transparent_black">#C8000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="overlay_bottom_bar_separators">#333333</color>
+    <color name="overlay_bottom_bar_background">#1E1E1E</color>
+    <color name="blue">#586481</color>
+    <color name="blue_transparent">#586481</color>
+    <color name="yellow"> #cd9e39</color>
+    <color name="rectangle">#d96468</color>
+    <color name="about_border_left">#EBEBEB</color>
+
+
+    <color name="menu_item_border">#CADBB7</color>
+
+</resources>

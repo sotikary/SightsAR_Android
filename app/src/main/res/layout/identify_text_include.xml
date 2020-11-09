@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/arrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/arrow_shape"
+        android:rotation="270">
+
+    <RelativeLayout
+        android:id="@+id/rectangle"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle_shape">
+
+        <TextView
+            android:id="@+id/identify_menu_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="70dp"
+            android:background="@color/transparent_black_30"
+            android:gravity="top|center_vertical"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="3.5"
+            android:shadowDy="5.3"
+            android:shadowRadius="5.6"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>
+</RelativeLayout>
+</LinearLayout>

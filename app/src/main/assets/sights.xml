@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="rotonta.Bottom" size="1800.000000 1600.000000"/>
+        <ImageTarget name="rotonta.Left" size="1600.000000 2100.000000"/>
+        <ImageTarget name="rotonta.Right" size="1600.000000 2100.000000"/>
+        <ImageTarget name="rotonta.Top" size="1800.000000 1600.000000"/>
+        <ImageTarget name="rotonta.Front" size="1800.000000 2100.000000"/>
+        <ImageTarget name="rotonta.Back" size="1800.000000 2100.000000"/>
+        <ImageTarget name="kamara.Bottom" size="1500.000000 1500.000000"/>
+        <ImageTarget name="kamara.Left" size="1500.000000 1750.000000"/>
+        <ImageTarget name="kamara.Right" size="1500.000000 1750.000000"/>
+        <ImageTarget name="kamara.Top" size="1500.000000 1500.000000"/>
+        <ImageTarget name="kamara.Front" size="1500.000000 1750.000000"/>
+        <ImageTarget name="kamara.Back" size="1500.000000 1750.000000"/>
+        <ImageTarget name="agdimitrios.Bottom" size="1240.000000 1400.000000"/>
+        <ImageTarget name="agdimitrios.Left" size="1400.000000 1600.000000"/>
+        <ImageTarget name="agdimitrios.Right" size="1400.000000 1600.000000"/>
+        <ImageTarget name="agdimitrios.Top" size="1240.000000 1400.000000"/>
+        <ImageTarget name="agdimitrios.Front" size="1240.000000 1600.000000"/>
+        <ImageTarget name="agdimitrios.Back" size="1240.000000 1600.000000"/>
+        <ImageTarget name="alexander.Bottom" size="1800.000000 1600.000000"/>
+        <ImageTarget name="alexander.Left" size="1600.000000 2000.000000"/>
+        <ImageTarget name="alexander.Right" size="1600.000000 2000.000000"/>
+        <ImageTarget name="alexander.Top" size="1800.000000 1600.000000"/>
+        <ImageTarget name="alexander.Front" size="1800.000000 2000.000000"/>
+        <ImageTarget name="alexander.Back" size="1800.000000 2000.000000"/>
+        <ImageTarget name="ompreles.Bottom" size="1100.000000 1500.000000"/>
+        <ImageTarget name="ompreles.Left" size="1500.000000 1800.000000"/>
+        <ImageTarget name="ompreles.Right" size="1500.000000 1800.000000"/>
+        <ImageTarget name="ompreles.Top" size="1100.000000 1500.000000"/>
+        <ImageTarget name="ompreles.Front" size="1100.000000 1800.000000"/>
+        <ImageTarget name="ompreles.Back" size="1100.000000 1800.000000"/>
+        <ImageTarget name="whitetower.Bottom" size="1100.000000 1400.000000"/>
+        <ImageTarget name="whitetower.Left" size="1400.000000 1800.000000"/>
+        <ImageTarget name="whitetower.Right" size="1400.000000 1800.000000"/>
+        <ImageTarget name="whitetower.Top" size="1100.000000 1400.000000"/>
+        <ImageTarget name="whitetower.Front" size="1100.000000 1800.000000"/>
+        <ImageTarget name="whitetower.Back" size="1100.000000 1800.000000"/>
+        <MultiTarget name="rotonta">
+            <Part name="rotonta.Left" translation="-900.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="rotonta.Right" translation="900.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="rotonta.Front" translation="0 0 800.0" rotation="AD: 1 0 0 0"/>
+            <Part name="rotonta.Back" translation="0 0 -800.0" rotation="AD: 0 1 0 180"/>
+            <Part name="rotonta.Top" translation="0 1050.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="rotonta.Bottom" translation="0 -1050.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="kamara">
+            <Part name="kamara.Left" translation="-750.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="kamara.Right" translation="750.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="kamara.Front" translation="0 0 750.0" rotation="AD: 1 0 0 0"/>
+            <Part name="kamara.Back" translation="0 0 -750.0" rotation="AD: 0 1 0 180"/>
+            <Part name="kamara.Top" translation="0 875.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="kamara.Bottom" translation="0 -875.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="agdimitrios">
+            <Part name="agdimitrios.Left" translation="-620.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="agdimitrios.Right" translation="620.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="agdimitrios.Front" translation="0 0 700.0" rotation="AD: 1 0 0 0"/>
+            <Part name="agdimitrios.Back" translation="0 0 -700.0" rotation="AD: 0 1 0 180"/>
+            <Part name="agdimitrios.Top" translation="0 800.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="agdimitrios.Bottom" translation="0 -800.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="alexander">
+            <Part name="alexander.Left" translation="-900.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="alexander.Right" translation="900.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="alexander.Front" translation="0 0 800.0" rotation="AD: 1 0 0 0"/>
+            <Part name="alexander.Back" translation="0 0 -800.0" rotation="AD: 0 1 0 180"/>
+            <Part name="alexander.Top" translation="0 1000.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="alexander.Bottom" translation="0 -1000.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="ompreles">
+            <Part name="ompreles.Left" translation="-550.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="ompreles.Right" translation="550.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="ompreles.Front" translation="0 0 750.0" rotation="AD: 1 0 0 0"/>
+            <Part name="ompreles.Back" translation="0 0 -750.0" rotation="AD: 0 1 0 180"/>
+            <Part name="ompreles.Top" translation="0 900.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="ompreles.Bottom" translation="0 -900.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="whitetower">
+            <Part name="whitetower.Left" translation="-550.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="whitetower.Right" translation="550.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="whitetower.Front" translation="0 0 700.0" rotation="AD: 1 0 0 0"/>
+            <Part name="whitetower.Back" translation="0 0 -700.0" rotation="AD: 0 1 0 180"/>
+            <Part name="whitetower.Top" translation="0 900.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="whitetower.Bottom" translation="0 -900.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

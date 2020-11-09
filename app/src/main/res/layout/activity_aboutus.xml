@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:id="@+id/activity_about"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- BACKGROUND IMAGE -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/back">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/history3"
+                android:contentDescription="@string/todo" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient2"/>
+        </FrameLayout>
+        <!-- END BACKGROUND IMAGE -->
+
+        <include layout="@layout/toolbar3"
+            android:id="@+id/include" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:visibility="visible"
+            android:background="@drawable/progress"/>
+
+        <LinearLayout
+            android:id="@+id/aboutproject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_below="@+id/include"
+            android:background="@drawable/diagonal_line">
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:background="@drawable/diagonal_line"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/aboutMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.92"
+                    android:background="@drawable/circle3"
+                    android:padding="5dp">
+
+
+                    <ImageView
+                        android:id="@+id/web_intelligence"
+                        android:contentDescription="@null"
+                        android:src="@drawable/web_intelligence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="85dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:id="@+id/subhead"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/web_intelligence"
+                        android:layout_marginTop="15dp"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:paddingLeft="5dp"
+                        android:background="@drawable/border_top_bottom"
+                        android:text="@string/mock_title"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <TextView
+                        android:id="@+id/description"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/subhead"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border_bottom"
+                        android:linksClickable="true"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/mock_design_is"
+                        android:autoLink="web" />
+
+                    <TextView
+                        android:id="@+id/description2"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/description"
+                        android:layout_marginBottom="10dp"
+                        android:linksClickable="true"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/mock_design_is2"/>
+
+
+                    <TextView
+                        android:id="@+id/subhead3"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_top_bottom"
+                        android:layout_below="@+id/description2"
+                        android:layout_marginBottom="5dp"
+                        android:paddingBottom="1dp"
+                        android:paddingTop="1dp"
+                        android:paddingLeft="5dp"
+                        android:text="@string/mock_just"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <TextView
+                        android:id="@+id/use1"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/subhead3"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border_left"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="2dp"
+                        android:text="@string/mock_listing_item1" />
+                    <TextView
+                        android:id="@+id/use2"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/use1"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/border_left"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="2dp"
+                        android:text="@string/mock_listing_item2"/>
+                    <TextView
+                        android:id="@+id/use3"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/use2"
+                        android:text="@string/mock_listing_item3"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/border_left"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="2dp"
+                        android:autoLink="web" />
+
+                    <TextView
+                        android:id="@+id/use4"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/use3"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/border_left"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="2dp"
+                        android:text="@string/mock_listing_item4"/>
+
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </RelativeLayout>
+

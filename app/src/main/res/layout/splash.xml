@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/formLogo"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1.5"
+        android:shadowDy="3.3"
+        android:shadowRadius="5.6"
+        android:text="Augmented Reality App"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/transparent_black_30"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="4dp"
+        android:fontFamily="serif"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1.5"
+        android:shadowDy="3.3"
+        android:shadowRadius="5.6"
+        android:text="About historical monuments of Thessaloniki"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/transparent_black_30"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/formLogo"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:elevation="19dp"
+        android:rotation="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arlogo" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/progress"
+        android:indeterminate="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

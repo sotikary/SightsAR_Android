@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_history"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@android:color/transparent">
+
+    <!-- BACKGROUND IMAGE -->
+
+    <LinearLayout
+        android:id="@+id/historyview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_vertical"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.83"
+            android:background="@color/white"
+            android:layout_gravity="bottom|center_vertical"
+            android:padding="1dp"
+            android:clipToPadding="false"
+            android:scrollbarStyle="outsideOverlay">
+
+            <RelativeLayout
+                android:id="@+id/yeardesc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/subhead_year"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/dark_header"
+                    android:drawableLeft="@android:drawable/ic_menu_info_details"
+                    android:drawablePadding="@dimen/menu_entries_top_down_radio_padding"
+                    android:paddingTop="3dp"
+                    android:alpha="0.98"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="15dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp"
+                    android:shadowColor="@color/transparent_black_30"
+                    android:shadowDx="4.5"
+                    android:shadowDy="5.8"
+                    android:shadowRadius="6.8"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp"
+                    android:typeface="serif" />
+
+
+                <TextView
+                    android:id="@+id/yeardescr"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/subhead_year"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/border_top_bottom"
+                    android:lineSpacingExtra="1.2sp"
+                    android:linksClickable="true"
+                    android:padding="15dp"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/gray"
+                    android:textSize="17sp"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <ImageView
+                    android:id="@+id/menu_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/yeardescr"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:padding="3dp"
+                    android:alpha="0.98"
+                    android:background="@android:drawable/dark_header"
+                    android:contentDescription="@null"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginStart="1dp"
+                    android:onClick="onMenuItemClick"
+                    android:src="@android:drawable/ic_menu_revert" />
+
+                <ImageView
+                    android:id="@+id/close_btn_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/menu_back"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/menu_back"
+                    android:adjustViewBounds="true"
+                    android:clickable="true"
+                    android:cropToPadding="true"
+                    android:scaleType="center"
+                    android:src="@android:drawable/ic_menu_save" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

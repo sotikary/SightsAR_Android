@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p>
+ <Landmark>
+  <id>01</id>
+  <key>kamara</key>
+  <name>ARCH OF GALERIUS - KAMARA </name>
+  <description>One of the most important monuments of Thessaloniki is Arch of Galerius, also known as Kamara, which is located at Egnatia Street, near Rotubda. It is one of the most famous meeting points of inhabitants and visitors.
+  </description>
+  <description2>Arch of Galerius was built in 298 to 299 AD and dedicated in 303 AD to celebrate the victory of the Roman Emperor Galerius after the war against Persians. The Arch was built vertically on the ancient Egnatia Street, which crossed the city - from the west to the east - and it was part of Roman Palace. The structure was an octopylon (eight-pillared gateway) forming a triple arch that was built of a rubble masonry core faced first with brick and then with marble panels with sculptural relief. Nowadays only two of the eight gateways survive.
+   More Information: https://en.wikipedia.org/wiki/Arch_of_Galerius_and_Rotunda
+  </description2>
+ </Landmark>
+ <Landmark>
+  <id>02</id>
+  <key>agdimitrios</key>
+  <name>CHURCH OF SAINT DEMETRIUS - HAGIOS DEMETRIOS</name>
+  <description>The Church of Saint Demetrius, is the main sanctuary dedicated to Saint Demetrius, the patron sain of Thessaloniki, dating from the time when it was the second largerst city of Byzantine Empire. It is built on Agiou Dimitriou Street.
+  </description>
+  <description2>The first church on the spot was constructed in the early 4th century AD, replacing a Roman bath. A century later, a prefect named Leontios replaced the small oratory with a larger, three-aisled basilica. Repeatedly gutted by fires, the church eventually was reconstructed as a five-aisled basilica in 629–634. This was the surviving form of the church much as it is today.
+   More Information: https://en.wikipedia.org/wiki/Hagios_Demetrios
+  </description2>
+ </Landmark>
+ <Landmark>
+  <id>03</id>
+  <key>rotonta</key>
+  <name>ROTUNDA</name>
+  <description>The Arch of Galerius or Kamara and the Rotunda are neighbouring early 4th-century monuments in the city of Thessaloniki, in the region of Central Macedonia in northern Greece. The Rotunda of Galerius was a massive circular structure with a masonry core that had an oculus like the Pantheon in Rome.
+  </description>
+  <description2>It has gone through multiple periods of use and modification as a polytheist temple, a Christian basilica, a Muslim mosque, and again a Christian church (and archaeological site). A minaret is preserved from its use as a mosque, and ancient remains are exposed on its southern side. In 1912 Rotunda was dedicated to Saint George, and today it is a UNESCO World Heritage Site.
+   More Information: https://en.wikipedia.org/wiki/Arch_of_Galerius_and_Rotunda
+  </description2>
+ </Landmark>
+ <Landmark>
+  <id>04</id>
+  <key>alexander</key>
+  <name>ALEXANDER THE GREAT</name>
+  <description>In the area of Nea Paralia, one of the most popular, full of energy places of Thessaloniki you’ll find the monument of one of the most famous and influential personalities of all times. A person that created a legend still heard until today. This is the monument of Alexander the 3rd, also known as ‘Alexander the Great’. You will easily find it right after the city’s symbol, the White Tower and the Royal Theater, heading east.
+  </description>
+  <description2>It is an impressive, six meters (20 ft.) tall monument that represents Alexander the Great while riding his horse “Voukefalas” (Bucephalus), one of the most famous actual horses of antiquity. After an extended reconstruction that lasted two and a half years the entire waterfront area of Thessaloniki along with Nea Paralia transformed into a wonderful place, ideal for a relaxing walk. During the decades 1980s and 1990s it was a famous meeting point, which was called "Alekos".
+   More Information: https://en.wikipedia.org/wiki/Alexander_the_Great
+  </description2>
+ </Landmark>
+ <Landmark>
+  <id>05</id>
+  <key>ompreles</key>
+  <name>UMBRELLAS</name>
+  <description>Giorgos Zongolopoulos' sculpture Umbrellas is one of the artist's most well-known iconographic motifs. The umbrella, an intimate everyday object of human protection against weather phenomena, becomes the visual subject that will occupy the artist in the years to come. The inspiration came probably from the homonymous work of his wife, Eleni Paschalidou.
+  </description>
+  <description2>Umbrellas are located at Thessaloniki's New Beach, at the height of the statue of Alexander the Great near the Macedonian Palace Hotel, at the entrance of the Macedonian Museum of Contemporary Art, as well as at the entrance of Palaios Psychiko, an area connected to Zongolopoulos there was his home, which today is the seat of the homonymous foundation he founded shortly before he died and to which he bequeathed all of his collection and the intellectual property rights of his work.
+   More Information: http://www.zongolopoulos.gr/en/foundation/activities/other-activities/20-years-of-umbrellas-in-thessaloniki
+  </description2>
+ </Landmark>
+ <Landmark>
+  <id>06</id>
+  <key>whitetower</key>
+  <name>WHITE TOWER</name>
+  <description>The White Tower of Thessaloniki is a monument and museum on the waterfront of the city of Thessaloniki, capital of the region of Macedonia in northern Greece. The present tower replaced an old Byzantine fortification, known to have been mentioned around the 12th century, that the Ottoman Empire reconstructed to fortify the city's harbour sometime after Sultan Murad II captured Thessaloniki in 1430.
+  </description>
+  <description2>The tower became a notorious prison and scene of mass executions during the period of Ottoman rule. The White Tower was substantially remodeled and its exterior was whitewashed after Greece gained control of the city in 1912. It has been adopted as the symbol of the city.
+   More Information: https://en.wikipedia.org/wiki/White_Tower_of_Thessaloniki
+  </description2>
+ </Landmark>
+</p>
